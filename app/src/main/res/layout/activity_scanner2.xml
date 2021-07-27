@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScannerActivity2">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="366dp"
+        android:layout_height="415dp"
+        app:autoFocusButtonColor="@android:color/white"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@android:color/white"
+        app:flashButtonVisible="true"
+        app:frameAspectRatioHeight="1"
+        app:frameAspectRatioWidth="1"
+        app:frameColor="@android:color/white"
+        app:frameCornersRadius="0dp"
+        app:frameCornersSize="50dp"
+        app:frameSize="0.75"
+        app:frameThickness="2dp"
+        app:maskColor="#77000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="225dp"
+        android:layout_marginTop="450dp"
+        android:layout_height="42dp"
+        android:text="TextView" />
+
+
+</FrameLayout>
+<!--<com.budiyev.android.codescanner.CodeScannerView-->
+<!--android:id="@+id/scannerview"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--app:flashButtonColor="@android:color/white"-->
+<!--app:frameColor="@android:color/white"-->
+<!--app:frameAspectRatioHeight="1"-->
+<!--app:frameAspectRatioWidth="1"-->
+<!--app:frameCornersRadius="0dp"-->
+<!--app:frameCornersSize="50dp"-->
+<!--app:frameThickness="2dp"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--app:flow_verticalBias="0"-->
+<!--app:flow_horizontalBias="0"-->
+<!--app:maskColor="#77000000"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--android:id="@+id/textView2"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Results"-->
+<!--android:textColor="#000"-->
+<!--tools:layout_editor_absoluteX="161dp"-->
+<!--tools:layout_editor_absoluteY="577dp"-->
+<!--tools:ignore="MissingConstraints" />-->
